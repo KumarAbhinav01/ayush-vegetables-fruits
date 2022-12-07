@@ -4,20 +4,23 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
-    "dev": "nodemon ./index.js",
-    "build": "webpack"
+    "dev": "nodemon ./index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "build-server": "^0.0.2",
     "express": "^4.18.1",
     "http": "^0.0.1-security",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.3.2"
+    "mongoose": "^6.3.2",
+    "npm-build": "^0.0.1",
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "webpack-cli": "^5.0.1"
   },
   "description": ""
 }
